@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+  }
+
+body{
+    background-color: #230337;
+}
+.albuns1{
+    display: flex;
+    gap: 20px;
+}
+h1{
+    margin-left: 40px;
+    width: 319px;
+    height: 43px;
+    font-size: 48px;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+h2{
+    margin-left: 40px;
+    width: 319px;
+    height: 43px;
+    font-size: 48px;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+h3{
+    margin-left: 40px;
+    width: 319px;
+    height: 43px;
+    font-size: 48px;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+.rock{
+    background-color:#5E0466;
+    width: 364px;
+    height: 794px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 130px;
+}
+.pop{
+    background-color:#5E0466;
+    width: 364px;
+    height: 794px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+}
+.funk{
+    background-color:#5E0466;
+    width: 364px;
+    height: 794px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+}
+.guns{
+    margin-left: 10px;
+    margin-top: 60px;
+}
+.kiss{
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.pink{
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.link{
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.matalica{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.queen{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.beatles{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.ghost{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.harry{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.cold{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.melanie{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.mitski{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.cat{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.taylor{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.billie{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.the{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.fioti{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.lan{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.ludimila{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.trembala{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.paiva{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.todynho{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.coiso{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.gabriel{
+    margin-top: 40px;
+    margin-left: 20px;
+}
