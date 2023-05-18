@@ -3,10 +3,24 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Dosis', sans-serif;
+    list-style: none;
+    text-decoration: none;
   }
 
 body{
     background-color: #230337;
+}
+a{
+    font-size: 30px;
+    height: 450px;
+    color: #04D939;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+h4{
+    color: #FFFFFF;
 }
 .albuns1{
     display: flex;
@@ -156,4 +170,7 @@ h3{
 .gabriel{
     margin-top: 40px;
     margin-left: 20px;
+}
+@media screen and (max-width:600px) {
+    
 }

@@ -9,11 +9,14 @@
     list-style: none;
     font-family: 'Righteous';
     color: #FFF;
+    text-decoration: none;
 }
 
 body{
     background-color: #291240;
 }
+
+
 
 header {
     display: flex;
