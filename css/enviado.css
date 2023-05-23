@@ -1,3 +1,6 @@
+/* font-family: 'Righteous', cursive; */
+
+
 * {
     margin: 0;
     padding: 0;
@@ -13,24 +16,94 @@ body{
 .btn{
     background-color: #04D939;
     border-radius: 10%;
-    margin-top: 400px;
+    margin-top: 300px;
     height: 200px;
     width: 400px;
     align-items: center;
-    margin-left: 600px;
+    margin-left: 700px;
 }
 h1{
     margin-left: 90px;
-    margin-top: 10px;
+    margin-top: 80px;
+   font-size: 50px;
+   align-items: center;
    font-size: 40px;
+   font-family: 'Righteous';
+   font-style: normal;
+   display: flex;
+   font-weight: 500;
+   font-size: 32px;
 }
+
 button{
     background: #04D939;
     border-radius: 10px;
-    color: #FFFFFF;
+    color: black;
     width: 263px;
    height: 61px;
-   margin-left: 650px;
-   margin-top: 100px;
+   margin-left: 750px;
+   margin-top: 90px;
    font-size: 40px;
+font-family: 'Righteous';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
 }
+
+.bl{
+    border-radius: 50%;
+    color: black;
+    width: 500px;
+    height: 500px;
+}
+
+.circulo1{
+    position: absolute;
+width: 649.56px;
+height: 620.25px;
+left: -156px;
+top: 20px;
+background: #603D7F;
+border-radius: 50%;
+z-index: -5;
+}
+.circulo2{
+
+    position: absolute;
+    width: 534px;
+    height: 452px;
+    left: -10px;
+    top: 500px;
+    background: #43007F;
+    transform: rotate(-3.34deg);
+    z-index: -5;
+    border-radius: 50%;
+}
+
+.circulo3{
+    position: absolute;
+    width: 638px;
+    height: 670px;
+    left: 1200px;
+    top: 170px;
+    background: #603D7F;
+    transform: rotate(-6.99deg);
+    z-index: -5;
+    border-radius: 50%;
+}
+
+.circulo4{
+    
+    position: absolute;
+    width: 650px;
+    height: 684px;
+    left: 988.12px;
+    top: 601px;
+    z-index: -4;
+    border-radius: 50%;
+    background: #43007F;
+}
+
+
+
+
