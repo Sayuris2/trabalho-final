@@ -17,7 +17,6 @@ body{
 }
 
 
-
 header {
     display: flex;
     justify-content: center;
@@ -29,7 +28,7 @@ main {
     display: flex;
     width: 100%;
     margin-top: -300px;
-    margin-left: 200px;
+    margin-left: 15px;
 }
 
 .top {
@@ -92,10 +91,16 @@ a {
     display: flex;
     align-items: center;
     gap: 5px;
+    width: 400px;
 }
 
 .box p {
     margin-left: 20px;
+    
+}
+
+.box span{
+
 }
 
 .pop p span {
@@ -114,6 +119,7 @@ a {
     flex-direction: column;
     margin-left: 80px;
     margin-bottom: 40px;
+    align-items: center;
 }
 
 .bum {
@@ -145,8 +151,35 @@ a {
     position: absolute;
     left: 550px;
     top: 380px;
+    margin-top: 75px;
+    
 
 }
 .LeftTop{
-    display: f;
+    display: flex;
+}
+
+h4{
+margin-top: 25px;
+margin-left: 35px;
+font-style: normal;
+font-weight: 400;
+ font-size: 36px;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+    margin-right: 45px;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: -35px;
+}
+
+.cantor{
+    margin-top: 25px;
+}
+
+.box span{
+margin-left: 20px;
 }
