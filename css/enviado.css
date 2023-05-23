@@ -19,9 +19,9 @@ body{
     margin-top: 300px;
     height: 200px;
     width: 400px;
-    align-items: center;
     margin-left: 700px;
 }
+
 h1{
     margin-left: 90px;
     margin-top: 80px;
@@ -34,6 +34,7 @@ h1{
    font-weight: 500;
    font-size: 32px;
 }
+
 
 button{
     background: #04D939;
@@ -102,6 +103,14 @@ z-index: -5;
     z-index: -4;
     border-radius: 50%;
     background: #43007F;
+}
+
+a{
+    color: black;
+    font-family: 'Righteous';
+font-style: normal;
+font-weight: 400;
+
 }
 
 
