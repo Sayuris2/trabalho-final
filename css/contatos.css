@@ -4,17 +4,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Righteous', sans-serif;
+    font-family: 'Dosis', sans-serif;
     list-style: none;
     text-decoration: none;
-
   }
 
 body{
     background-color: #230337;
 }
 a{
-    font-size: 20px;
+    font-size: 30px;
     height: 450px;
     color: #04D939;
 }
@@ -23,14 +22,21 @@ nav{
     justify-content: space-between;
 }
 h4{
-    color: white;
-    width: 365px;
-    height: 49px;
-    margin-left: 66px;
-    margin-top: 21px;
-    font-weight: 400;
-   font-size: 40px;
-  line-height: 62px;
+    color: #FFFFFF;
+    margin-left: 140px;
+    margin-top: 45px;
+    font-size: 35px;
+}
+.principal{
+    list-style: none;
+    text-decoration: none;
+    display: flex ;
+    gap: 50px ;
+    margin-top: 30px;
+    margin-right:200px ;
+}
+.principal  a{
+   text-decoration: none;
 }
 h1{
     color: #04D939;
