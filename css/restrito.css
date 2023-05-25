@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+    list-style: none;
+    text-decoration: none;
+  }
+
+body{
+    background-color: #230337;
+}
+a{
+    font-size: 30px;
+    height: 450px;
+    color: #04D939;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+h4{
+    color: #FFFFFF;
+    margin-left: 140px;
+    margin-top: 45px;
+    font-size: 35px;
+}
+.principal{
+    list-style: none;
+    text-decoration: none;
+    display: flex ;
+    gap: 50px ;
+    margin-top: 30px;
+    margin-right:200px ;
+}
+.principal  a{
+   text-decoration: none;
+}
