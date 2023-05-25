@@ -7,6 +7,10 @@
     text-decoration: none;
   }
 
+  img:hover{
+    transform:scale(1.1) ;
+    transition: 500ms;
+  }
 body{
     background-color: #230337;
 }
@@ -15,6 +19,12 @@ a{
     height: 450px;
     color: #04D939;
 }
+
+a:hover{
+    color: #FFF;
+    transform: scale(1.1);
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -50,7 +60,7 @@ h1{
     height: 43px;
     font-size: 40px;
     line-height: 75px;
-    color: #FFFFFF;
+    color: black;
 }
 h2{
     margin-left: 40px;
@@ -58,7 +68,7 @@ h2{
     height: 43px;
     font-size: 40px;
     line-height: 75px;
-    color: #FFFFFF;
+    color: black;
 }
 h3{
     margin-left: 40px;
@@ -66,7 +76,7 @@ h3{
     height: 43px;
     font-size: 40px;
     line-height: 75px;
-    color: #FFFFFF;
+    color: black;
 }
 .rock{
     background-color:#5E0466;

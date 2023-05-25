@@ -14,7 +14,19 @@ a{
     font-size: 30px;
     height: 450px;
     color: #04D939;
+    list-style: none;
+    justify-content: flex-end;
 }
+
+a:hover{
+    color: #FFF;
+    transform: scale(1.1);
+}
+
 nav{
     display: flex;
+}
+
+h4{
+    margin-top: 34px;
 }
