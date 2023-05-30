@@ -263,11 +263,7 @@ ul{
     transition: 500ms;
     gap: 30px;
     align-items: center;
-ma
-}
-.nav-menu{
-    display: flex;
-    gap: 20px;
+    margin-right: 160px;
 }
 
   
@@ -278,7 +274,6 @@ ma
 .box span{
 margin-left: 20px;
 }
-
 @media screen and (max-width: 390px) {
     h4{
         color: #FFFFFF;
