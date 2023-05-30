@@ -127,12 +127,6 @@ button{
     font-size: 20px;
     margin-left: 10px;
 }
-@media screen and (max-width: 500px) {
-    span.psw {
-      display: block;
-      float: none;
-    }
-    .cancelbtn {
-      width: 100%;
-    }
+@media screen and (max-width: 390px) {
+    
   }

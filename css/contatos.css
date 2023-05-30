@@ -128,3 +128,6 @@ ul{
      align-items: center;
      margin-right: 160px;
  }
+ @media screen and (max-width: 390px) {
+    
+ }
