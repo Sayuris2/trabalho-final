@@ -263,7 +263,11 @@ ul{
     transition: 500ms;
     gap: 30px;
     align-items: center;
-    margin-right: 160px;
+ma
+}
+.nav-menu{
+    display: flex;
+    gap: 20px;
 }
 
   
