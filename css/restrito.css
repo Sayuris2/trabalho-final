@@ -16,6 +16,7 @@ a{
     font-size: 30px;
     height: 450px;
     color: #04D939;
+    font-family: 'Righteous';
 }
 
 a:hover{
@@ -31,9 +32,10 @@ nav{
 
 h4{
     color: #FFFFFF;
-    margin-left: 10px;
-    margin-top: 45px;
+    margin-left: 35px;
+    margin-top: 35px;
     font-size: 40px;
+    font-family: 'Righteous';
 }
 .principal{
     list-style: none;
@@ -56,26 +58,40 @@ h1{
     line-height: 79px;
     width: 785px;
     height: 97px;
+    font-family: 'Righteous';
 }
 h3{
     color: #FFFFFF;
-    margin-left: 350px;
-    width: 162px;
+    margin-left: 190px;
+    width: 172px;
     height: 25px;
-   font-size: 20px;
+   font-size: 25px;
    line-height: 25px;
+   font-family: 'Righteous';
+   border-color: black;
+   margin-top: 34px;
 }
 .volta{
-    font-size: 20px;
-    height: 50px;
+    font-size: 30px;
+    height: 700px;
     color: #04D939;
     margin-left: 700px;
-
+    font-weight: 400px;
+    margin-top: 80px;
+    justify-content: center;
 }
+
+
 table{
-    margin-left: 340px;
-    margin-top: 40px;
+    margin-left: 200px;
+    margin-top: 60px;
+    
 }
 td{
     color: #FFFFFF;
+    font-family: 'Righteous';
+}
+
+tr{
+    margin-bottom: 20px;
 }
