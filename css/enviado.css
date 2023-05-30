@@ -8,6 +8,7 @@
     font-family: 'Dosis', sans-serif;
     list-style: none;
     text-decoration: none;
+    overflow: hidden;
   }
 
 body{

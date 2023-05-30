@@ -14,6 +14,7 @@
 
 body{
     background-color: #291240;
+    
 }
 
 
@@ -89,7 +90,7 @@ main {
 }
 
 a {
-    font-size: 30px;
+    font-size: 35px;
     height: 450px;
     color: #04D939;
     
@@ -211,23 +212,6 @@ a:hover{
     transition: 600ms;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .bum {
     font-style: normal;
     font-weight: 400;
@@ -258,8 +242,6 @@ a:hover{
     left: 550px;
     top: 380px;
     margin-top: 75px;
-    
-
 }
 .LeftTop{
     display: flex;
@@ -274,15 +256,15 @@ font-weight: 400;
 }
 
 ul{
-    display: flex;
-    gap: 40px;
-    margin-right: 45px;
-    align-items: center;
+    
+   display: flex;
     justify-content: flex-end;
     margin-top: -35px;
     transition: 500ms;
+    gap: 30px;
+    align-items: center;
+    margin-right: 160px;
 }
-
 
   
 .cantor{
@@ -292,6 +274,3 @@ ul{
 .box span{
 margin-left: 20px;
 }
-
-li:hover{
-   

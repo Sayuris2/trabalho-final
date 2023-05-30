@@ -14,16 +14,20 @@
 body{
     background-color: #230337;
 }
-a{
+
+
+a {
     font-size: 30px;
     height: 450px;
     color: #04D939;
+    
+    
 }
-
 a:hover{
     color: #FFF;
     transform: scale(1.1);
 }
+
 
 nav{
     display: flex;
@@ -40,20 +44,27 @@ h4{
 list-style: none;
 text-decoration: none;
 display: flex;
-gap: 50px;
 margin-top: 30px;
 margin-right: 200px;
+gap: 35px;
 }
 
 .principal a{
     text-decoration: none;
-
-   color: aliceblue;
-    margin-left: 140px;
+   color: #04D939;
     margin-top: 45px;
     font-size: 35px;
 }
 
+a {
+    font-size: 35px;
+    color: #04D939;
+}
+
+a:hover{
+    color: #FFF;
+    transform: scale(1.1);
+}
 
 
 
@@ -92,7 +103,7 @@ h3{
     justify-content: space-between;
     align-items: center;
     margin-left: 140px;
-    margin-top: 35px;
+    margin-top: 40px;
 }
 .pop{
     background-color:#5E0466;
@@ -101,7 +112,7 @@ h3{
     justify-content: space-between;
     align-items: center;
     margin-left: 120px;
-    margin-top: 35px;
+    margin-top: 40px;
 }
 .funk{
     background-color:#5E0466;
@@ -110,7 +121,7 @@ h3{
     justify-content: space-between;
     align-items: center;
     margin-left: 120px;
-    margin-top: 35px;
+    margin-top: 40px;
 }
 .guns{
     margin-left: 10px;

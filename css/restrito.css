@@ -1,3 +1,5 @@
+/* font-family: 'Righteous', cursive; */
+
 * {
     margin: 0;
     padding: 0;
@@ -15,15 +17,23 @@ a{
     height: 450px;
     color: #04D939;
 }
+
+a:hover{
+    color: #FFF;
+    transform: scale(1.1);
+}
+
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
+
+
 h4{
     color: #FFFFFF;
-    margin-left: 140px;
+    margin-left: 10px;
     margin-top: 45px;
-    font-size: 35px;
+    font-size: 40px;
 }
 .principal{
     list-style: none;
