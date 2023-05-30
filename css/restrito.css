@@ -36,3 +36,36 @@ h4{
 .principal  a{
    text-decoration: none;
 }
+h1{
+    color: #04D939;
+    margin-left:650px;
+    margin-top: 100px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 79px;
+    width: 785px;
+    height: 97px;
+}
+h3{
+    color: #FFFFFF;
+    margin-left: 350px;
+    width: 162px;
+    height: 25px;
+   font-size: 20px;
+   line-height: 25px;
+}
+.volta{
+    font-size: 20px;
+    height: 50px;
+    color: #04D939;
+    margin-left: 700px;
+
+}
+table{
+    margin-left: 340px;
+    margin-top: 40px;
+}
+td{
+    color: #FFFFFF;
+}
