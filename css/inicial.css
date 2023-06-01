@@ -1,5 +1,7 @@
 /* font-family: 'Monoton', cursive; */
 /* font-family: 'Righteous', cursive; */
+
+
 *{
     margin: 0;
     padding: 0;
@@ -104,6 +106,19 @@ nav h1:hover{
 h2{
     color: #fff;
     font-family: 'Righteous', cursive;
+   font-size: 35px;
+}
+
+h3{
+    color: #fff;
+    font-family: 'Righteous', cursive;
+font-size: 25px;
+}
+
+h6{
+    color: #fff;
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
 }
 main{
     margin-left: 160px;
@@ -193,12 +208,10 @@ ul{
 
 
  a {
-    font-size: 35px;
+    font-size: 30px;
     height: 450px;
     color: #04D939;
-    
-    
-    
+    font-family: 'Righteous'; 
 }
 .soul{
     margin-left: 30px;

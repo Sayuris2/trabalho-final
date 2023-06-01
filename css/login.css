@@ -12,9 +12,11 @@
 body {
   background-color: #230337;
 }
-a {
-  font-size: 30px;
-  height: 450px;
+a{
+    font-size: 30px;
+    height: 450px;
+    color: white;
+    font-family: 'Righteous';
   color: #04d939;
 }
 nav {

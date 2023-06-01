@@ -92,13 +92,14 @@ main {
 a {
     font-size: 35px;
     height: 450px;
-    color: #04D939;
-    
-    
-    
+    color: white;
+
 }
+
+
+
 a:hover{
-    color: #FFF;
+    color: #04D939 ;
     transform: scale(1.1);
 }
 
@@ -136,6 +137,7 @@ a:hover{
     margin-left: 80px;
     margin-bottom: 40px;
     align-items: center;
+    margin-top: 6px;
 }
 
 .one:hover{
@@ -215,7 +217,7 @@ a:hover{
 .bum {
     font-style: normal;
     font-weight: 400;
-    font-size: 26px;
+    font-size: 30px;
     line-height: 40px;
     text-decoration: none;
     list-style: none;
@@ -225,6 +227,14 @@ a:hover{
     gap: 24px;
     margin-left: 80px;
     margin-bottom: 40px;
+}
+
+.album{
+    margin-left: -20px;
+}
+
+.popu{
+    margin-left: -270px;
 }
 
 .slavsfd {
@@ -256,12 +266,18 @@ font-weight: 400;
 }
 
 ul{
-    
    display: flex;
-    justify-content: flex-end;
-    margin-top: -35px;
     transition: 500ms;
     gap: 30px;
+    
+}
+
+.nav-menu{
+    display: flex;
+    gap: 20px;
+    
+   
+    
     align-items: center;
     margin-right: 160px;
 }
@@ -282,8 +298,11 @@ margin-left: 20px;
         font-size: 20px;
         font-family: 'Righteous';
     }
-    .principal a{
-        font-size: 15px;
-      
-    }
+    
+}
+
+.principal{
+    font-size: 15px;
+    margin-top: 24.20px;
+    margin-left: 650px;
 }
