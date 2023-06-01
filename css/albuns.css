@@ -58,11 +58,12 @@ gap: 35px;
 
 a {
     font-size: 35px;
-    color: #04D939;
+    color: white;
+    text-decoration: none;
 }
 
 a:hover{
-    color: #FFF;
+    color: #04D939;
     transform: scale(1.1);
 }
 
@@ -232,4 +233,9 @@ h3{
         font-size: 15px;
       
     }
+}
+
+h4{
+    text-decoration: none;
+    
 }

@@ -16,7 +16,9 @@ body{
 a{
     font-size: 30px;
     height: 450px;
-    color: #04D939;
+    color: white;
+    font-family: 'Righteous';
+    
 }
 nav{
     display: flex;
@@ -27,7 +29,6 @@ h4{
     margin-left: 140px;
     margin-top: 45px;
     font-size: 35px;
-    font-family: 'Righteous';
 }
 
 .nav-menu{
@@ -94,7 +95,7 @@ button{
   line-height: 50px
 }
 a:hover{
-    color: #FFF;
+    color: #04D939;
     transform: scale(1.1);
 }
 
