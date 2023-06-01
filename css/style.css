@@ -278,6 +278,8 @@ ul{
     
    
     
+    align-items: center;
+    margin-right: 160px;
 }
 
   
@@ -288,7 +290,6 @@ ul{
 .box span{
 margin-left: 20px;
 }
-
 @media screen and (max-width: 390px) {
     h4{
         color: #FFFFFF;
