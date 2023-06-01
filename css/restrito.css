@@ -92,7 +92,7 @@ td{
 tr{
     margin-bottom: 20px;
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 400px) {
     
   h4 {
     color: #ffffff;
