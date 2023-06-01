@@ -22,7 +22,7 @@ h1{
 }
 body{
     background-color: black;
-    height: ;
+    height:0 ;
 }
 .fa-infinity{
     color: #fff;
@@ -221,7 +221,7 @@ a:hover{
     transform: scale(1.1);
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 400px) {
     h4{
         color: #FFFFFF;
         margin-left: 12px;
