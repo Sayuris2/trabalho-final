@@ -32,7 +32,7 @@ nav{
 }
 h4{
     color: #FFFFFF;
-    margin-left: 140px;
+    margin-left: 125px;
     margin-top: 45px;
     font-size: 40px;
     font-family:'Righteous' ;
@@ -109,7 +109,7 @@ button{
   border-radius: 10px;
 }
 .a{
-    color: black;
+ color: black;
     width: 144px;
    height: 25px;
    font-family: 'Righteous';
