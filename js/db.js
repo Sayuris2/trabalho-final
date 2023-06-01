@@ -3,35 +3,35 @@ let data = [
     "nome": "Aluno SENAI",
     "eMail": "aluno@senai.com.br",
     "assunto": "Dúvidas",
-    "mensagem": "Mensagem 1 | SENAI - SESI - Alunos do curso desenvolvimento de sistemas"
+    "mensagem": "Mensagem 1 | SENAI - SESI - Alunos do curso ADS"
     },
 
     {"dtRecord" : "2023-05-01 12:15:35",
     "nome": "Aluno SENAI",
     "eMail": "aluno@senai.com.br",
     "assunto": "Opções de Entrega",
-    "mensagem": "Mensagem 2 | SENAI - SESI - Alunos do curso desenvolvimento de sistemas"
+    "mensagem": "Mensagem 2 | SENAI - SESI - Alunos do curso ADS"
     },
 
     {"dtRecord" : "2023-05-01 13:15:35",
     "nome": "Aluno SENAI",
     "eMail": "aluno@senai.com.br",
     "assunto": "Telefone de Contato",
-    "mensagem": "Mensagem 3 | SENAI - SESI - Alunos do curso desenvolvimento de sistemas"
+    "mensagem": "Mensagem 3 | SENAI - SESI - Alunos do curso ADS"
     },
     
     {"dtRecord" : "2023-05-01 14:15:35",
     "nome": "Aluno SENAI",
     "eMail": "aluno@senai.com.br",
     "assunto": "Endereço para Retirada",
-    "mensagem": "Mensagem 4 | SENAI - SESI - Alunos do curso desenvolvimento de sistemas"
+    "mensagem": "Mensagem 4 | SENAI - SESI - Alunos do curso ADS"
     },
 
     {"dtRecord" : "2023-05-01 15:15:35",
     "nome": "Aluno SENAI",
     "eMail": "aluno@senai.com.br",
     "assunto": "Oportunidades de trabalho",
-    "mensagem": "Mensagem 5 | SENAI - SESI - Alunos do curso desenvolvimento de sistemas"
+    "mensagem": "Mensagem 5 | SENAI - SESI - Alunos do curso ADS"
     }
 ];
 

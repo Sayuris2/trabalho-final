@@ -1,5 +1,7 @@
 /* font-family: 'Monoton', cursive; */
 /* font-family: 'Righteous', cursive; */
+
+
 *{
     margin: 0;
     padding: 0;
@@ -20,7 +22,7 @@ h1{
 }
 body{
     background-color: black;
-    height: ;
+    height:0 ;
 }
 .fa-infinity{
     color: #fff;
@@ -104,6 +106,19 @@ nav h1:hover{
 h2{
     color: #fff;
     font-family: 'Righteous', cursive;
+   font-size: 35px;
+}
+
+h3{
+    color: #fff;
+    font-family: 'Righteous', cursive;
+font-size: 25px;
+}
+
+h6{
+    color: #fff;
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
 }
 main{
     margin-left: 160px;
@@ -193,12 +208,10 @@ ul{
 
 
  a {
-    font-size: 35px;
+    font-size: 30px;
     height: 450px;
     color: #04D939;
-    
-    
-    
+    font-family: 'Righteous'; 
 }
 .soul{
     margin-left: 30px;
@@ -208,8 +221,16 @@ a:hover{
     transform: scale(1.1);
 }
 
-/* @media screen (max-width 465px) {
-    
-} */
-
-   
+@media screen and (max-width: 400px) {
+    h4{
+        color: #FFFFFF;
+        margin-left: 12px;
+        margin-top: 30px;
+        font-size: 20px;
+        font-family: 'Righteous';
+    }
+    .principal a{
+        font-size: 15px;
+      
+    }
+}

@@ -32,7 +32,7 @@ nav{
 }
 h4{
     color: #FFFFFF;
-    margin-left: 140px;
+    margin-left: 125px;
     margin-top: 45px;
     font-size: 40px;
     font-family:'Righteous' ;
@@ -72,6 +72,7 @@ p{
 }
 
 
+
 label{
    
    
@@ -108,7 +109,7 @@ button{
   border-radius: 10px;
 }
 .a{
-    color: black;
+ color: black;
     width: 144px;
    height: 25px;
    font-family: 'Righteous';
@@ -164,3 +165,17 @@ ul{
     
    
  }
+ @media screen and (max-width: 400px) {
+    h4{
+        color: #FFFFFF;
+        margin-left: 12px;
+        margin-top: 30px;
+        font-size: 20px;
+        font-family: 'Righteous';
+    }
+    .principal a{
+        font-size: 15px;
+      
+    }
+ }
+

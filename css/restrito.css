@@ -9,45 +9,41 @@
     text-decoration: none;
   }
 
-body{
+  body {
     background-color: #230337;
-}
-a{
+  }
+  a {
     font-size: 30px;
     height: 450px;
-    color: #04D939;
-    font-family: 'Righteous';
-}
-
-a:hover{
-    color: #FFF;
-    transform: scale(1.1);
-}
-
-nav{
+    color: #04d939;
+  }
+  nav {
     display: flex;
-    justify-content: space-between; 
-}
+    justify-content: space-between;
+  }
 
+  h4 {
+    color: #ffffff;
+    margin-left: 140px;
+    margin-top: 45px;
+    font-size: 35px;
+    font-family: "Righteous";
+  }
+  
 
-h4{
-    color: #FFFFFF;
-    margin-left: 35px;
-    margin-top: 35px;
-    font-size: 40px;
-    font-family: 'Righteous';
-}
-.principal{
+  .principal {
     list-style: none;
     text-decoration: none;
-    display: flex ;
-    gap: 50px ;
+    display: flex;
+    gap: 20px;
     margin-top: 30px;
-    margin-right:200px ;
-}
-.principal  a{
-   text-decoration: none;
-}
+    margin-right: 200px;
+  }
+  .principal a {
+    text-decoration: none;
+    font-family: "Righteous";
+  }
+  
 h1{
     color: #04D939;
     margin-left:650px;
@@ -79,6 +75,8 @@ h3{
     font-weight: 400px;
     margin-top: 80px;
     justify-content: center;
+    font-family: 'Righteous';
+    align-items: center;
 }
 
 
@@ -94,4 +92,57 @@ td{
 
 tr{
     margin-bottom: 20px;
+}
+@media screen and (max-width: 400px) {
+    
+  h4 {
+    color: #ffffff;
+    margin-left: 12px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: "Righteous";
+  }
+  .principal a {
+    font-size: 15px;
+  }
+  h1{
+    margin-left: 100px;
+    margin-top: 60px;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 79px;
+    width: 785px;
+    height: 97px;
+    font-family: "Righteous";
+}
+h3{
+    color: #FFFFFF;
+    margin-left: 30px;
+    width: 172px;
+    height: 25px;
+   font-size: 17px;
+   line-height: 25px;
+   font-family: 'Righteous';
+   border-color: black;
+   margin-top: 5px;
+}
+.volta{
+    margin-left: 100px;
+    font-weight: 400px;
+   font-size: 20PX;
+    justify-content: center;
+}
+
+
+table{
+    margin-left: 40px;
+   
+    
+}
+td{
+    color: #FFFFFF;
+    font-family: 'Righteous';
+}
+
 }

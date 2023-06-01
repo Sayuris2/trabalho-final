@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -33,6 +35,7 @@ nav{
     display: flex;
     justify-content: space-between;
 }
+
 h4{
     color: #FFFFFF;
     margin-left: 140px;
@@ -58,11 +61,12 @@ gap: 35px;
 
 a {
     font-size: 35px;
-    color: #04D939;
+    color: white;
+    text-decoration: none;
 }
 
 a:hover{
-    color: #FFF;
+    color: #04D939;
     transform: scale(1.1);
 }
 
@@ -220,6 +224,71 @@ h3{
     margin-top: 40px;
     margin-left: 20px;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width: 400px) {
+    h4{
+        color: #FFFFFF;
+        margin-left: 12px;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .principal a{
+        font-size: 15px;
+      
+    }
+
+    h1{
+        margin-left: 20px;
+        width: 319px;
+        height: 43px;
+        font-size: 40px;
+        line-height: 75px;
+        color: black;
+    }
+    
+    .rock{
+        background-color:#5E0466;
+        width: 364px;
+        height: 794px;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .pop{
+        background-color:#5E0466;
+        width: 364px;
+        height: 794px;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .funk{
+        background-color:#5E0466;
+        width: 364px;
+        height: 794px;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        margin-left: 0;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .albuns1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+h4{
+    text-decoration: none;
     
 }
