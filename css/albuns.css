@@ -232,24 +232,35 @@ h3{
       
     }
 
+    h1{
+        margin-left: 20px;
+        width: 319px;
+        height: 43px;
+        font-size: 40px;
+        line-height: 75px;
+        color: black;
+    }
+    
     .rock{
         background-color:#5E0466;
-        width: 164px;
-        height: 494px;
+        width: 364px;
+        height: 794px;
         justify-content: space-between;
         align-items: center;
-        margin-left: 140px;
         margin-top: 40px;
+        margin-left: 0;
+        text-align: center;
     }
 
     .pop{
         background-color:#5E0466;
-        width: 164px;
-        height: 494px;
+        width: 364px;
+        height: 794px;
         justify-content: space-between;
         align-items: center;
-        margin-left: 120px;
         margin-top: 40px;
+        margin-left: 0;
+        text-align: center;
     }
 
     .funk{
@@ -258,7 +269,17 @@ h3{
         height: 794px;
         justify-content: space-between;
         align-items: center;
-        margin-left: 120px;
         margin-top: 40px;
+        margin-left: 0;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .albuns1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
     }
 }
