@@ -8,7 +8,7 @@
     font-family: 'Dosis', sans-serif;
     list-style: none;
     text-decoration: none;
-    overflow: hidden;
+
   }
 
 body{
@@ -114,7 +114,36 @@ font-weight: 400;
 
 @media screen and (max-width: 400px) {
 
-}
+    .tudo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  .circulo1{
+    transform: scale(0.6);
+  }
+  .circulo2{
+    transform: scale(0.6);
+  }
+  .circulo3{
+    transform: scale(0.1);
+  }
+  .circulo4{
+    transform: scale(0.1);
+  }
+
+  h1{
+    margin-left: 300px;
+    
+    
+  }
+  button{
+    z-index: 23;
+    display: flex;
+    justify-content: center;
+  }
+ }
+
 
 
 
