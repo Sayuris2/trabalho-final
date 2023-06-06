@@ -21,6 +21,8 @@ body{
     height: 200px;
     width: 400px;
     margin-left: 700px;
+    text-align: center;
+    
 }
 
 h1{
@@ -113,37 +115,65 @@ font-weight: 400;
 }
 
 @media screen and (max-width: 400px) {
-
-    .tudo{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-  .circulo1{
-    transform: scale(0.6);
-  }
-  .circulo2{
-    transform: scale(0.6);
-  }
-  .circulo3{
-    transform: scale(0.1);
-  }
-  .circulo4{
-    transform: scale(0.1);
-  }
-
-  h1{
-    margin-left: 300px;
+  body{
     
+  }
+  .conteiner{
+    position: absolute;
+    width: inherit;
+    height: 100vh;
+    z-index: 3;
+
+    background-color: red;
+
+    
+  }
+  h1{
+color: white;
+   font-family: 'Righteous';
+   font-style: normal;
+    position: relative;
+   font-weight: 500;
+   font-size: 32px;
+   top: 0;
+   left: ;
+   
+  }
+  .btnVerde{
+    background-color: #04D939;
+    border-radius: 10%;
+   text-align: center;
+    height: 150px;
+    width: 300px;
+ 
     
   }
   button{
-    z-index: 23;
-    display: flex;
-    justify-content: center;
-  }
- }
+    background: #04D939;
+    border-radius: 10px;
+    color: black;
+    width: 263px;
+   height: 61px;
 
+   font-size: 40px;
+font-family: 'Righteous';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+}
+.circulo1{
+transform: scale(0.6);
+}
+.circulo2{
+transform: scale(0.6);
+}
+.circulo3{
+transform: scale(0.1);
+}
+.circulo4{
+transform: scale(0.1);
+}
+}
 
 
 

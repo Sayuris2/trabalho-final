@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+/* Personalização dos Circulos */
+.circulo1{
+    position: absolute;
+width: 649.56px;
+height: 620.25px;
+left: -156px;
+top: 20px;
+background: #603D7F;
+border-radius: 50%;
+z-index: -5;
+}
+.circulo2{
+
+    position: absolute;
+    width: 534px;
+    height: 452px;
+    left: -10px;
+    top: 500px;
+    background: #43007F;
+    transform: rotate(-3.34deg);
+    z-index: -5;
+    border-radius: 50%;
+}
+
+.circulo3{
+    position: absolute;
+    width: 638px;
+    height: 670px;
+    left: 1200px;
+    top: 170px;
+    background: #603D7F;
+    transform: rotate(-6.99deg);
+    z-index: -5;
+    border-radius: 50%;
+}
+
+.circulo4{
+    
+    position: absolute;
+    width: 650px;
+    height: 684px;
+    left: 988.12px;
+    top: 601px;
+    z-index: -4;
+    border-radius: 50%;
+    background: #43007F;
+}
+body{
+    background-color: #230337;
+
+}
+.filter{
+    opacity: 20%;
+}
+.conteiner{
+    width: inherit;
+    height: 100vh;
+    /* background-color: red; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btnVerde{
+    height: 200px;
+    width: 420px;
+    background-color:#04D939 ;
+    font-family: 'Righteous';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    z-index: 5;
+    margin-bottom: 15px;
+    
+}
+button{
+    background: #04D939;
+    border-radius: 10px;
+    color: black;
+    width: 263px;
+   height: 61px;
+   font-size: 40px;
+font-family: 'Righteous';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+z-index: 5;
+
+}
+@media screen and (max-width: 390px) {
+        .todas-as-bolas{
+            transform: scale(0.5);
+            position: absolute;
+            top: 15%;
+            left: 15%;
+            /* overflow: hidden; */
+        }
+        .circulo3{
+            display: none;
+        }
+        .circulo4{
+            display: none;
+        }
+        .btnVerde{
+            transform: scale(0.8);
+        }
+        button{
+            transform: scale(0.8);
+        }
+}
