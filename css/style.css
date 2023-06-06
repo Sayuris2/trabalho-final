@@ -91,7 +91,6 @@ main {
 
 a {
     font-size: 34px;
-    height: 450px;
     color: white;
 }
 
@@ -268,15 +267,6 @@ ul{
     
 }
 
-.nav-menu{
-    display: flex;
-    gap: 20px;
-    
-   
-    
-    align-items: center;
-    margin-right: 160px;
-}
 
   
 .cantor{
