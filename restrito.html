@@ -43,25 +43,38 @@
           </div>
         </div>
       </nav>
-    <h1>Área Restrita</h1>
+      <h1>Área Restritra</h1>
 
-    <h3>Mensagens dos visitantes</h3>
-
-    <table id="myTable">
-        <tr>
-            <td>Data/Hora</td>
-            <td>Nome</td>
-            <td>E-Mail</td>
-            <td>Assunto</td>
-            <td>Mensagem</td>
-        </tr>
-    </table>
-
-    <br>
-    <a class="volta" href="contatos.html">Retornar à pagina inicial</a>
-
-    
-    <script src="./js/db.js"></script>
+      <h3>Mensagens dos visitantes</h3>
+  
+      <table id="myTable" border="1">
+          <tr>
+              <td>Data/Hora</td>
+              <td>Nome</td>
+              <td>E-Mail</td>
+              <td>Assunto</td>
+              <td>Mensagem</td>
+          </tr>
+      </table>
+      
+      <div id="container-mensagens" class="restrito-mensagens">
+          <div class="restrito-mensagem">
+              <div class="restrito-mensagem-titulo">
+                  <p>Data: 00/00/0000</p>
+                  <p>Nome: Ageu Duarte Junior</p>
+                  <p>Email: ageu@ageu.com.br</p>
+                  <p>Assunto: Teste</p>
+              </div>
+              <div class="restrito-mensagem-conteudo">
+                  <p>Mensagem</p>
+              </div>
+          </div>
+      </div>
+  
+      <br>
+      <a href="index.html">Retornar à pagina inicial</a>
+  
+      <script src="./js/db.js"></script>
     <!-- <script src="./js/teste.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
