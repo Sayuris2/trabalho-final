@@ -1,294 +1,118 @@
-
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Dosis', sans-serif;
-    list-style: none;
-    text-decoration: none;
-  }
-
-  img:hover{
-    transform:scale(1.1) ;
-    transition: 500ms;
-  }
-body{
-    background-color: #230337;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
+  list-style: none;
+  text-decoration: none;
 }
 
-
+img:hover {
+  transform: scale(1.1);
+  transition: 500ms;
+}
+body {
+  background-color: #230337;
+}
 a {
-    font-size: 30px;
-    height: 450px;
-    color: #04D939;
-    
-    
+  font-size: 30px;
+  color: white;
+  font-family: "Righteous";
+  color: #04d939;
 }
-a:hover{
-    color: #FFF;
-    transform: scale(1.1);
+nav {
+  display: flex;
+  justify-content: space-between;
 }
-
-
-nav{
-    display: flex;
-    justify-content: space-between;
-}
-
-h4{
-    color: #FFFFFF;
-    margin-left: 140px;
-    margin-top: 45px;
-   font-size: 35px;
+h4 {
+  color: #ffffff;
+  margin-left: 100px;
+  margin-top: 45px;
+  font-size: 40px;
+  font-family: "Righteous";
 }
 
-.principal{
-list-style: none;
-text-decoration: none;
-display: flex;
-margin-top: 30px;
-margin-right: 200px;
-gap: 35px;
+.nav-menu {
+  font-family: "Righteous";
+}
+.principal {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+  margin-right: 200px;
+}
+.principal a {
+  text-decoration: none;
+  font-family: "Righteous";
 }
 
-.principal a{
-    text-decoration: none;
-   color: #04D939;
-    margin-top: 45px;
-    font-size: 35px;
+a:hover {
+  color: #04d939;
+  transform: scale(1.1);
 }
 
-a {
-    font-size: 35px;
-    color: white;
-    text-decoration: none;
+.albuns1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  margin: 0 30px;
 }
 
-a:hover{
-    color: #04D939;
-    transform: scale(1.1);
+h1 {
+  height: 43px;
+  font-size: 40px;
+  line-height: 75px;
+  color: #fff;
+}
+h2 {
+  margin-left: 40px;
+  width: 319px;
+  height: 43px;
+  font-size: 40px;
+  line-height: 75px;
+  color: black;
+}
+h3 {
+  margin-left: 40px;
+  width: 319px;
+  height: 43px;
+  font-size: 40px;
+  line-height: 75px;
+  color: black;
 }
 
+.albuns1 .discos {
+  flex: 1;
+  text-align: center;
+  max-width: 400px;
+}
+.categorias {
+  background-color: #5e0466;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-around;
+  margin-top: 40px;
+}
 
+.albuns1 .categorias .capa {
+  width: 100%;
+  height: 100%;
+}
 
-.albuns1{
-    display: flex;
-    gap: 20px;
-}
-h1{
-    margin-left: 40px;
-    width: 319px;
-    height: 43px;
-    font-size: 40px;
-    line-height: 75px;
-    color: black;
-}
-h2{
-    margin-left: 40px;
-    width: 319px;
-    height: 43px;
-    font-size: 40px;
-    line-height: 75px;
-    color: black;
-}
-h3{
-    margin-left: 40px;
-    width: 319px;
-    height: 43px;
-    font-size: 40px;
-    line-height: 75px;
-    color: black;
-}
-.rock{
-    background-color:#5E0466;
-    width: 364px;
-    height: 794px;
-    justify-content: space-between;
+@media screen and (max-width: 900px) {
+  .albuns1 {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    margin: 0 auto;
     align-items: center;
-    margin-left: 140px;
-    margin-top: 40px;
-}
-.pop{
-    background-color:#5E0466;
-    width: 364px;
-    height: 794px;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 120px;
-    margin-top: 40px;
-}
-.funk{
-    background-color:#5E0466;
-    width: 364px;
-    height: 794px;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 120px;
-    margin-top: 40px;
-}
-.guns{
-    margin-left: 10px;
-    margin-top: 60px;
-}
-.kiss{
-    margin-left: 10px;
-    margin-top: 40px;
-}
-.pink{
-    margin-left: 10px;
-    margin-top: 40px;
-}
-.link{
-    margin-left: 10px;
-    margin-top: 40px;
-}
-.matalica{
-    margin-top: 60px;
-    margin-left: 20px;
-}
-.queen{
-    margin-top: 40px;
-    margin-left: 20px;
-}
-.beatles{
-    margin-top: 40px;
-    margin-left: 20px;
-}
-.ghost{
-    margin-top: 40px;
-    margin-left: 20px;
-}
-.harry{
-    margin-top: 60px;
-    margin-left: 20px;
-}
-.cold{
-    margin-top: 40px;
-    margin-left: 20px;
-}
-.melanie{
-    margin-top: 40px;
-    margin-left: 20px;
-}
-.mitski{
-    margin-top: 40px;
-    margin-left: 20px;
-}
-
-.cat{
-    margin-top: 60px;
-    margin-left: 20px;
-}
-.taylor{
-    margin-top: 40px;
-    margin-left: 20px;
-}
-.billie{
-    margin-top: 40px;
-    margin-left: 20px;
-}
-.the{
-    margin-top: 40px;
-    margin-left: 20px;
-}
-.fioti{
-    margin-top: 60px;
-    margin-left: 20px;
-}
-.lan{
-    margin-top: 60px;
-    margin-left: 20px;
-}
-.ludimila{
-    margin-top: 40px;
-    margin-left: 20px;
-}
-.trembala{
-    margin-top: 40px;
-    margin-left: 20px;
-}
-.paiva{
-    margin-top: 40px;
-    margin-left: 20px;
-}
-.todynho{
-    margin-top: 40px;
-    margin-left: 20px;
-}
-.coiso{
-    margin-top: 40px;
-    margin-left: 20px;
-}
-.gabriel{
-    margin-top: 40px;
-    margin-left: 20px;
-}
-@media screen and (max-width: 400px) {
-    h4{
-        color: #FFFFFF;
-        margin-left: 12px;
-        margin-top: 30px;
-        font-size: 20px;
-    }
-    .principal a{
-        font-size: 15px;
-      
-    }
-
-    h1{
-        margin-left: 20px;
-        width: 319px;
-        height: 43px;
-        font-size: 40px;
-        line-height: 75px;
-        color: black;
-    }
-    
-    .rock{
-        background-color:#5E0466;
-        width: 364px;
-        height: 794px;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 40px;
-        margin-left: 0;
-        text-align: center;
-    }
-
-    .pop{
-        background-color:#5E0466;
-        width: 364px;
-        height: 794px;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 40px;
-        margin-left: 0;
-        text-align: center;
-    }
-
-    .funk{
-        background-color:#5E0466;
-        width: 364px;
-        height: 794px;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 40px;
-        margin-left: 0;
-        margin-bottom: 40px;
-        text-align: center;
-    }
-
-    .albuns1 {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-h4{
-    text-decoration: none;
-    
+  }
+  .albuns1 .discos .categorias{
+    width: 100%;
+    margin: 0 15px;
+  }
 }
