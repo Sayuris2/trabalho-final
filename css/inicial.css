@@ -8,11 +8,6 @@
   list-style: none;
   text-decoration: none;
 }
-nav {
-  display: flex;
-  height: 100px;
-  align-items: center;
-}
 h1 {
   font-family: "Monoton", cursive;
   color: #fff;
@@ -72,7 +67,7 @@ nav h1:hover {
   transform: scale(1.1);
   transition: 1s;
 }
-.fa-user {
+/* .fa-user {
   position: absolute;
   font-size: 30px;
   color: #737373;
@@ -95,7 +90,7 @@ nav h1:hover {
 .fa-gear:hover {
   transform: scale(1.1);
   transition: 1s;
-}
+} */
 h2 {
   color: #fff;
   font-family: "Righteous", cursive;
@@ -121,18 +116,17 @@ h6 {
     font-family: "Righteous", cursive;
     font-size: 35px;
     margin-bottom: 40px;
-    margin-top: -150px;
 }
 
-img {
+.container-musicas img {
   width: 200px;
   height: 120px;
   transition: 500ms;
+  padding-top: 40px;
 }
 
-img:hover {
+.container-musicas img:hover {
   transform: scale(1.1);
-  transition: 1000ms;
 }
 
 .container-musicas .popular {
@@ -148,28 +142,30 @@ img:hover {
   display: flex;
   gap: 200px;
   margin-left: 60px;
-  margin-top: -300px;
 }
-.yunk {
-  width: 100%;
-  height: 50%;
-}
+
 
 .slideshow-container {
   width: 70%;
   margin: 0 auto;
   margin-top: 75px;
+  height: 200px;
+  margin-bottom: 50px;
 }
 
 .mySlides {
   height: 500px;
 }
 
+.yunk {
+  width: 100%;
+  height: 50%;
+}
+
 .nomes {
   display: flex;
   gap: 200px;
   margin-left: 60px;
-  margin-top: -300px;
 }
 .celebri {
   margin-left: -30px;
@@ -179,15 +175,6 @@ img:hover {
   margin-left: 50px;
 }
 
-ul {
-  display: flex;
-
-  margin-top: -35px;
-  transition: 500ms;
-  gap: 30px;
-  align-items: center;
-  margin-left: 700px;
-}
 
 h4 {
   margin-top: 25px;
@@ -199,7 +186,6 @@ h4 {
 
 a {
   font-size: 30px;
-  height: 450px;
   color: #04d939;
   font-family: "Righteous";
 }
@@ -231,7 +217,7 @@ a:hover {
 
 @media screen and (max-width: 400px) {
   h4 {
-    color: #ffffff;
+    color: #3f005c;
     margin-left: 12px;
     margin-top: 30px;
     font-size: 20px;
@@ -239,7 +225,7 @@ a:hover {
     height: 10px;
   }
   .principal a {
-    font-size: 15px;
+    font-size: 25px;
     margin-top: 15px;
     justify-content: flex-start;
   }
