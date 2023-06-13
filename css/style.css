@@ -14,8 +14,9 @@
 
 body{
     background-color: #291240;
-    
 }
+
+
 
 
 header {
@@ -46,6 +47,8 @@ main {
     font-size: 64px;
     text-align: center;
     transition: 0.5ms all ease-out;
+    display: flex;
+
     
 }
 
@@ -78,20 +81,8 @@ main {
     font-size: 32px;
 }
 
-.midTop {
-    margin-top: -5px;
-    margin-right: 100px;
-}
-
-.rightTop {
-    display: flex;
-    gap: 30px;
-    margin-top: 40px;
-}
-
 a {
     font-size: 34px;
-    height: 450px;
     color: white;
 }
 
@@ -110,9 +101,23 @@ a:hover{
     width: 400px;
 }
 
+.boxa {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    margin-left: 74px;
+    display: flex;
+    margin-top: -30px;
+   
+}
+
 .box p {
     margin-left: 20px;
-    
+    gap: 24px;
+}
+
+p{
+    margin-left: 30px;
 }
 
 
@@ -120,22 +125,50 @@ a:hover{
     font-size: 26px;
 }
 
-.container-artista .pop {
+.container-artista{
     font-style: normal;
     font-weight: 20px;
     font-size: 30px;
     list-style: none;
     text-decoration: none;
-    gap: 24px;
+    gap: 30px;
     width: 50%;
     display: flex;
     flex-direction: column;
-    margin-left: 80px;
-    margin-bottom: 40px;
+    margin-left: 450px;
     align-items: center;
-    margin-top: 6px;
     flex: 1;
+    margin-top: 90px;
 }
+
+.container-albuns{
+    gap: 24px;
+    margin-bottom: 90%;
+    justify-content: center;
+}
+
+.bum {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    text-decoration: none;
+    list-style: none;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    margin-top: -300px;
+    margin-right: 600px;
+}
+
+.pop{
+
+margin-top: 15px;
+line-height: 40px;
+}
+
 
 .one:hover{
     transform: scale(1.1);
@@ -144,10 +177,17 @@ a:hover{
 
 .one{
     transition: 0.5ms all ease-out;
+    margin-top: 25px; 
+    width: 30%;
+    max-width:600px
+
 }
 
 .two{
     transition: .0.5s all ease-out;
+    margin-top: 25px;
+    width: 30%;
+    max-width:600px
 }
 
 .two:hover{
@@ -157,6 +197,9 @@ a:hover{
 
 .tree{
     transition: 0.5ms all ease-out;
+    margin-top: 25px;
+    width: 30%;
+    max-width:600px
 }
 
 .tree:hover{
@@ -166,6 +209,9 @@ a:hover{
 
 .four{
     transition: 0.5ms all ease-out;
+    margin-top: 25px;
+    width: 30%;
+    max-width:600px
 }
 
 .four:hover{
@@ -182,10 +228,14 @@ a:hover{
 
 .iti{
     transition: 0.5ms all ease-out;
+    width: 30%;
+    max-width:600px
 }
 
 .ni{
     transition: .0.5s all ease-out;
+    width: 30%;
+    max-width:600px
 }
 
 .ni:hover{
@@ -195,6 +245,8 @@ a:hover{
 
 .san{
     transition: 0.5ms all ease-out;
+    width: 30%;
+    max-width:600px
 }
 
 .san:hover{
@@ -204,6 +256,8 @@ a:hover{
 
 .yon{
     transition: 0.5ms all ease-out;
+    width: 30%;
+    max-width:600px
 }
 
 .yon:hover{
@@ -211,28 +265,13 @@ a:hover{
     transition: 600ms;
 }
 
-.bum {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 40px;
-    text-decoration: none;
-    list-style: none;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    margin-left: 80px;
-    margin-bottom: 40px;
-}
+
 
 .album{
     margin-left: -20px;
 }
 
-.popu{
-    margin-left: -270px;
-}
+
 
 .slavsfd {
     display: flex;
@@ -262,30 +301,45 @@ font-weight: 400;
  font-size: 37px;
 }
 
-ul{
+ul li {
    display: flex;
     transition: 500ms;
     gap: 30px;
     
 }
 
-.nav-menu{
-    display: flex;
-    gap: 20px;
-    align-items: center;
+.navbar{
+    font-weight: 400;
+ font-size: 35px;
+ gap: 20px;
+ justify-content: space-between;
+ margin-left: 300px;
 }
+
+
 
 .principal{
     margin-left: 670px;
 }
   
 .cantor{
-    margin-top: 25px;
+    width: 90%;
+    max-width: 1100px;
 }
+
+
 
 .box span{
 margin-left: 20px;
 }
+
+@media screen and (max-width: 900px) {
+
+    .artista{
+        font-size: 30px;
+    }
+}
+
 @media screen and (max-width: 400px) {
 
     .container-artista{

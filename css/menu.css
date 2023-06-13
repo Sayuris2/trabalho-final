@@ -1,26 +1,32 @@
-.nav-menu {
-    background-color: #230337 !important;
-  }
-  
-  .nav-menu .nav-item a {
-    font-size: 35px;
-    color: #04d939;
-    font-family: "Righteous";
-  }
-  
-  /* Set the border color */
-  
-  .custom-toggler.navbar-toggler {
-    font-size: 30px;
-  }
-  /* Setting the stroke to green using rgb values (0, 128, 0) */
-  
-  .custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(4, 217, 57, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  }
+*{
+  text-decoration: none;
+}
 
-  .navbar-brand {
-    color: #ffffff;
-    font-size: 40px;
-    font-family: "Righteous";
-  }
+body{
+  background-color: #230337
+}
+
+.nav-menu{
+  background-color: #230337 !important;
+}
+
+.navbar-brand{
+  margin-left: 15px;
+}
+
+/* Set the border color */
+
+.custom-toggler.navbar-toggler {
+  font-size: 20px;
+}
+/* Setting the stroke to green using rgb values (0, 128, 0) */
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(4, 217, 57, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-brand {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: "Righteous";
+}
