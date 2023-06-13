@@ -9,28 +9,34 @@
     text-decoration: none;
   }
 
+  img:hover {
+    transform: scale(1.1);
+    transition: 500ms;
+  }
   body {
     background-color: #230337;
   }
   a {
     font-size: 30px;
-    height: 450px;
+    color: white;
+    font-family: "Righteous";
     color: #04d939;
   }
   nav {
     display: flex;
     justify-content: space-between;
   }
-
   h4 {
     color: #ffffff;
-    margin-left: 140px;
+    margin-left: 100px;
     margin-top: 45px;
-    font-size: 35px;
+    font-size: 40px;
     font-family: "Righteous";
   }
   
-
+  .nav-menu {
+    font-family: "Righteous";
+  }
   .principal {
     list-style: none;
     text-decoration: none;
@@ -42,6 +48,11 @@
   .principal a {
     text-decoration: none;
     font-family: "Righteous";
+  }
+  
+  a:hover {
+    color: #04d939;
+    transform: scale(1.1);
   }
   
 h1{
