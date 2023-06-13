@@ -1,18 +1,19 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/img/xd.png" type="image/x-icon">
-     <!-- fontes -->
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-     <!-- fim das fontes -->
+    <!-- fontes -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <!-- fim das fontes -->
     <title>Login</title>
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/login.css">
     <link rel="stylesheet" href="./css/menu.css">
 </head>
@@ -20,69 +21,74 @@
 <body>
     <nav class="nav-menu navbar navbar-expand-xl bg-body-tertiary justify-content-end">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">SOUL SOUND</a>
-          <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="text-success navbar-toggler-icon meu-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="albuns.html">Galeria</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="artista.html">Produtos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contatos.html">Contato</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="login.html">Área Restrita</a>
-              </li>
-              
-          </div>
+            <a class="navbar-brand" href="index.html">SOUL SOUND</a>
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="text-success navbar-toggler-icon meu-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="albuns.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="artista.html">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contatos.html">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Área Restrita</a>
+                    </li>
+
+            </div>
         </div>
-      </nav>
+    </nav>
 
-    <h1>Login</h1>
-    
-    <form action="">
-    <label for="login"> Login </label>
-        <br>
-         <br>
-        <input type="text" name="login" id="login">
-        <br>
-        
-         <br>
-    <label for="senha">Senha</label>
-        
-        <br>
-        <input type="password" name="senha" id="senha">
-        <br>
-    
-    <br>
-    <br>
-    <button type="button" id="btnLogin" onclick="login()">Entrar</button>
-    <br>
-    <br>
-    <label class="check"> Me lembre</label>
-        <input class="checkbox" type="checkbox" checked="checked" name="remember">
-    
-</form>
-    </div>
-    <div class="container">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
-     
-      <span class="psw">Esqueceu<a class="pass" href="#">senha?</a></span>
-    </div>
-  </form>
-</div>
 
+    
+        <form action="">
+            <h1>Login</h1>
+            <label for="login"> Login </label>
+            
+            <br>
+            <input type="text" name="login" id="login">
+            <br>
+
+            <br>
+            <label for="senha">Senha</label>
+
+            <br>
+            <input type="password" name="senha" id="senha">
+            <br>
+
+            <br>
+            <br>
+            <button type="button" id="btnLogin" onclick="login()">Entrar</button>
+
+
+            <div class="container">
+                
+        
+                <span class="psw">Esqueceu<a class="pass" href="#">senha?</a></span>
+            </div>
+    
+        </form>
+
+    
+    
 
 
     <script src="./js/loginScript.js"></script>
 
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
