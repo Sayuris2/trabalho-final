@@ -24,10 +24,20 @@ a:hover{
     color: #FFF;
     transform: scale(1.1);
 }
-
+.nav-menu {
+    font-family: "Righteous";
+    color: #ffffff;
+  }
 nav{
     display: flex;
     justify-content: space-between;
+}
+.navbar{
+    font-weight: 400;
+ font-size: 35px;
+ gap: 20px;
+ justify-content: space-between;
+ margin-left: 300px;
 }
 h4{
     color: #FFFFFF;

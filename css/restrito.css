@@ -8,6 +8,17 @@
   align-items: center;
   justify-content: center;
 }
+.nav-menu {
+  font-family: "Righteous";
+  color: #ffffff;
+}
+.navbar{
+  font-weight: 400;
+ font-size: 35px;
+ gap: 20px;
+ justify-content: space-between;
+ margin-left: 300px;
+}
 
 .restrito-mensagem{
   width: 50%;
