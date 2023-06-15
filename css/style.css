@@ -18,7 +18,6 @@ body{
 
 
 
-
 header {
     display: flex;
     justify-content: center;
@@ -104,11 +103,18 @@ a:hover{
 .boxa {
     display: flex;
     align-items: center;
-    width: 400px;
-    margin-left: 74px;
-    display: flex;
-    margin-top: -30px;
-   
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.boxa span{
+    width: 20px;
+}
+
+.boxa .capa-album{
+    width: 120px;
+    margin-top: 15px;
+    
 }
 
 .box p {
@@ -131,36 +137,42 @@ p{
     font-size: 30px;
     list-style: none;
     text-decoration: none;
-    gap: 30px;
     width: 50%;
-    display: flex;
-    flex-direction: column;
-    margin-left: 450px;
-    align-items: center;
-    flex: 1;
     margin-top: 90px;
 }
 
 .container-albuns{
-    gap: 24px;
     margin-bottom: 90%;
-    justify-content: center;
+
+}
+
+.container-lista{
+    text-align: center;
+}
+
+.container-lista p{
+    font-size: 20px;
+}
+
+.container-lista .boxa .capa-album:hover{
+    scale: 1.05;
+    cursor: pointer;
+    transition: 0.5ms all ease-out;
+}
+
+.container{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin-top: 90px;
+    flex-wrap: wrap;
 }
 
 .bum {
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
-    line-height: 40px;
-    text-decoration: none;
-    list-style: none;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    align-items: flex-start;
-    margin-top: -300px;
-    margin-right: 600px;
+    font-size: 40px;
 }
 
 .pop{
@@ -170,107 +182,9 @@ line-height: 40px;
 }
 
 
-.one:hover{
-    transform: scale(1.1);
-    transition: 700ms;
-}
-
-.one{
-    transition: 0.5ms all ease-out;
-    margin-top: 25px; 
-    width: 30%;
-    max-width:600px
-
-}
-
-.two{
-    transition: .0.5s all ease-out;
-    margin-top: 25px;
-    width: 30%;
-    max-width:600px
-}
-
-.two:hover{
-    transform: scale(1.1);
-    transition: 600ms;
-}
-
-.tree{
-    transition: 0.5ms all ease-out;
-    margin-top: 25px;
-    width: 30%;
-    max-width:600px
-}
-
-.tree:hover{
-    transform: scale(1.1);
-    transition: 600ms;
-}
-
-.four{
-    transition: 0.5ms all ease-out;
-    margin-top: 25px;
-    width: 30%;
-    max-width:600px
-}
-
-.four:hover{
-    transform: scale(1.1);
-    transition: 600ms;
-}
-
-
-
-.iti:hover{
-    transform: scale(1.1);
-    transition: 700ms;
-}
-
-.iti{
-    transition: 0.5ms all ease-out;
-    width: 30%;
-    max-width:600px
-}
-
-.ni{
-    transition: .0.5s all ease-out;
-    width: 30%;
-    max-width:600px
-}
-
-.ni:hover{
-    transform: scale(1.1);
-    transition: 600ms;
-}
-
-.san{
-    transition: 0.5ms all ease-out;
-    width: 30%;
-    max-width:600px
-}
-
-.san:hover{
-    transform: scale(1.1);
-    transition: 600ms;
-}
-
-.yon{
-    transition: 0.5ms all ease-out;
-    width: 30%;
-    max-width:600px
-}
-
-.yon:hover{
-    transform: scale(1.1);
-    transition: 600ms;
-}
-
-
-
 .album{
     margin-left: -20px;
 }
-
 
 
 .slavsfd {
@@ -301,12 +215,7 @@ font-weight: 400;
  font-size: 37px;
 }
 
-ul li {
-   display: flex;
-    transition: 500ms;
-    gap: 30px;
-    
-}
+
 
 .navbar{
     font-weight: 400;
@@ -315,8 +224,6 @@ ul li {
  justify-content: space-between;
  margin-left: 300px;
 }
-
-
 
 .principal{
     margin-left: 670px;
@@ -327,10 +234,12 @@ ul li {
     max-width: 1100px;
 }
 
+.popu{
+    font-size: 45px;
+}
 
 
 .box span{
-margin-left: 20px;
 }
 
 @media screen and (max-width: 900px) {
